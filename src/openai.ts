@@ -11,6 +11,7 @@ import {config} from "./config.js";
 const configuration = new Configuration({
   apiKey: config.openai_api_key,
   basePath: config.api,
+  organization: "org-7Mk6p08A1AbrqAw7c1HzfJGv",
 });
 const openai = new OpenAIApi(configuration);
 
